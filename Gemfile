@@ -6,6 +6,7 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'high_voltage'
 
 
 # Gems used only for assets and not required
@@ -16,6 +17,7 @@ group :assets do
 
 group :test, :development do
   gem 'rspec-rails'
+  gem 'capybara'
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
