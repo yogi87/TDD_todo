@@ -19,6 +19,10 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
 end
+
+group :test do
+  gem 'factory_girl_rails', '~> 4.0'
+end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
